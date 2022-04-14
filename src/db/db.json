@@ -1,0 +1,75 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "boboBurger",
+      "menu": [
+        {
+          "name": "bacon & jalapeno",
+          "price": 28
+        },
+        {
+          "name": "whisky bbq",
+          "price": 30
+        },
+        {
+          "name": "halloumi",
+          "price": 28
+        },
+        {
+          "name": "cola",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "pizzaParty",
+      "menu": [
+        {
+          "name": "margherita",
+          "price": 25
+        },
+        {
+          "name": "4 sery",
+          "price": 28
+        },
+        {
+          "name": "capricciosa",
+          "price": 30
+        },
+        {
+          "name": "cola",
+          "price": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "wietChińczyk",
+      "menu": [
+        {
+          "name": "wołowina po chińsku",
+          "price": 26
+        },
+        {
+          "name": "wołowina po wietnamsku",
+          "price": 27
+        },
+        {
+          "name": "kurczak po chińsku",
+          "price": 23
+        },
+        {
+          "name": "kurczak po wietnamsku",
+          "price": 24
+        },
+        {
+          "name": "cola",
+          "price": 4
+        }
+      ]
+    }
+  ],
+  "users": ["Pan Jan", "Kajtek Bezmajtek", "Kot Filemon"]
+}

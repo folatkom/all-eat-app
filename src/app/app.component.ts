@@ -1,8 +1,14 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
-export type x = {
+export interface Restaurant {
+  id: number;
   name: string;
-};
+  menu: Dish[];
+}
+interface Dish {
+  name: string;
+  price: number;
+}
 
 @Component({
   selector: 'app-root',

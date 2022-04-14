@@ -1,0 +1,15 @@
+mat-toolbar {
+  background-color: rgb(98, 52, 107);
+  font-size: 15px;
+  height: 40px;
+  letter-spacing: 1px;
+}
+mat-card {
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+}
+div {
+  margin: 0% 5%;
+  text-align: right;
+}

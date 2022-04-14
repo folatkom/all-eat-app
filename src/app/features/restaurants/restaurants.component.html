@@ -1,0 +1,12 @@
+<mat-card>
+  <mat-card-title>restauracje</mat-card-title>
+  <mat-action-list>
+    <button
+      mat-list-item
+      *ngFor="let restaurant of restaurantsList$ | async"
+      (click)="selectRestaurant(restaurant)"
+    >
+      {{ restaurant.name }}
+    </button>
+  </mat-action-list>
+</mat-card>
