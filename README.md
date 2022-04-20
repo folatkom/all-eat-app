@@ -44,3 +44,7 @@ To get more help on the Angular CLI use `npm run ng` or go check out the [Angula
 ## TODO
 
 Eslint ngrx
+
+## json server running
+
+json-server --watch db/db.json

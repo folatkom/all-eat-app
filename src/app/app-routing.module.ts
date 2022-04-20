@@ -9,6 +9,10 @@ import { RouterModule } from '@angular/router';
         loadChildren: async () => (await import('./auth/auth.module')).AuthModule,
       },
       {
+        path: 'signup',
+        loadChildren: async () => (await import('./signup/signup.module')).SignupModule,
+      },
+      {
         path: 'app',
         loadChildren: async () => (await import('./shell/shell.module')).ShellModule,
       },

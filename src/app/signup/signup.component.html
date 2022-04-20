@@ -1,1 +1,9 @@
-<p>signup works!</p>
+<mat-card>
+  <mat-card-title>Zarejstruj się</mat-card-title>
+  <form [formGroup]="signupForm" (ngSubmit)="signup()">
+    <label>Login<input formControlName="fullName" type="text" /></label>
+    <label>Hasło<input formControlName="password" type="password" /></label>
+    <button type="submit">Zarejestruj</button>
+  </form>
+  <p>Jeśli masz już konto, <a routerLink="/auth">zaloguj się</a></p>
+</mat-card>

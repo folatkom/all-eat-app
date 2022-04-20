@@ -25,7 +25,7 @@ export class AuthComponent implements OnInit {
         return a.fullName === this.loginForm.value.fullName && a.password === this.loginForm.value.password;
       });
       if (user) {
-        alert('Zalogowano');
+        //alert('Zalogowano');
         this.loginForm.reset();
         this.router.navigate(['app/create-order']);
       } else {

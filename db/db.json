@@ -72,12 +72,20 @@
     }
   ],
   "users": [
-    { "id": 1, "fullName": "Pan Jan", "password": "pass123" },
+    {
+      "id": 1,
+      "fullName": "Pan Jan",
+      "password": "pass123"
+    },
     {
       "id": 2,
       "fullName": "Kajtek Bezmajtek",
       "password": "pass456"
     },
-    { "id": 3, "fullName": "Kot Filemon", "password": "pass789" }
+    {
+      "id": 3,
+      "fullName": "Kot Filemon",
+      "password": "pass789"
+    }
   ]
 }
