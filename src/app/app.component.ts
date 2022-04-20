@@ -9,6 +9,11 @@ interface Dish {
   name: string;
   price: number;
 }
+export interface User {
+  id: number;
+  fullName: string;
+  password: string;
+}
 
 @Component({
   selector: 'app-root',

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ApiServiceService } from '../../api-service.service';
+import { User } from 'app/app.component';
 
 @Component({
   selector: 'app-participants',
@@ -9,7 +10,7 @@ import { ApiServiceService } from '../../api-service.service';
 })
 export class ParticipantsComponent implements OnInit {
   showList: boolean = false;
-  users$: Observable<string[]>;
+  users$: Observable<User[]>;
   constructor(private api: ApiServiceService) {}
 
   ngOnInit(): void {

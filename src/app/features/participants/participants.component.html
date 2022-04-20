@@ -7,7 +7,7 @@
     </form>
     <mat-selection-list>
       <mat-list-option *ngFor="let user of users$ | async">
-        {{ user }}
+        {{ user.fullName }}
       </mat-list-option>
     </mat-selection-list>
   </div>
